@@ -2107,11 +2107,24 @@
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		display: flex;
+		flex-direction: row;
 	}
 
-	.profile {
+	.xprofile {
 		height: 250px;
 		width: 250px;
+		border-radius: 50%;
+		order: 1;
+		background-size: cover;
+	}
+
+	.xprofile-pic-container {
+		padding-right: 175px;
+	}
+
+	.xheader-one {
+		order: 2;
 	}
 
 /* Two */
