@@ -1651,6 +1651,10 @@
 				margin: 0 auto;
 			}
 
+			.work-links a {
+				text-decoration: none;
+			}
+
 
 		@media screen and (max-width: 480px) {
 
