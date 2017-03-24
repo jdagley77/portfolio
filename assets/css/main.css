@@ -1647,6 +1647,11 @@
 				transform: translateY(7em);
 			}
 
+			.work-links {
+				margin: 0 auto;
+			}
+
+
 		@media screen and (max-width: 480px) {
 
 			.gallery {
