@@ -1287,6 +1287,7 @@
 			.gallery article .image {
 				margin: 0;
 				display: block;
+				/*padding: 100px;*/
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -1294,6 +1295,9 @@
 				-webkit-transition-delay: 0.05s;
 				-ms-transition-delay: 0.05s;
 				transition-delay: 0.05s;
+				height: 100%;
+				width: 100%;
+				padding: 50px;
 			}
 
 			.gallery article:nth-last-child(2n) {
