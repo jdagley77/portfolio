@@ -2126,15 +2126,15 @@
 	}
 
 	.xprofile {
-		height: 250px;
-		width: 250px;
+		height: 70%;
+		width: 70%;
 		border-radius: 50%;
 		order: 1;
 		background-size: cover;
 	}
 
 	.xprofile-pic-container {
-		padding-right: 60%;
+		padding-right: 50%;
 		position: absolute;
 	}
 
@@ -2182,5 +2182,18 @@
 			#contact .box {
 				padding-bottom: 2em;
 			}
+
+			.xprofile {
+				height: 50%;
+				width: 50%;
+				border-radius: 50%;
+				order: 1;
+				background-size: cover;
+			}
+
+			.xprofile-pic-container {
+				position: absolute;
+				padding-bottom: 55%;
+	}
 
 		}
