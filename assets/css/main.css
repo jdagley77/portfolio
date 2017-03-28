@@ -1653,6 +1653,7 @@
 
 			.work-links a {
 				text-decoration: none;
+				color: black;
 			}
 
 
@@ -2151,6 +2152,13 @@
 		background-position: top left, center center;
 	}
 
+	#word {
+		background: url("../../images/two.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
 /* Contact */
 
 	#contact {
@@ -2193,7 +2201,7 @@
 
 			.xprofile-pic-container {
 				position: absolute;
-				padding-bottom: 55%;
+				padding-bottom: %;
 	}
 
 		}
