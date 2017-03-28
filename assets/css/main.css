@@ -1653,6 +1653,7 @@
 
 			.work-links a {
 				text-decoration: none;
+				color: black;
 			}
 
 
@@ -2116,7 +2117,7 @@
 /* One */
 
 	#one {
-		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
+		background: url("images/overlay.png"), url("../../images/fulls/haring.jpg");
 		/*background-color: #84AB5F;*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2126,15 +2127,16 @@
 	}
 
 	.xprofile {
-		height: 250px;
-		width: 250px;
+		height: 70%;
+		width: 70%;
 		border-radius: 50%;
 		order: 1;
 		background-size: cover;
 	}
 
 	.xprofile-pic-container {
-		padding-right: 175px;
+		padding-right: 50%;
+		position: absolute;
 	}
 
 	.xheader-one {
@@ -2144,7 +2146,14 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/fulls/city.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#word {
+		background: url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2181,5 +2190,18 @@
 			#contact .box {
 				padding-bottom: 2em;
 			}
+
+			.xprofile {
+				height: 50%;
+				width: 50%;
+				border-radius: 50%;
+				order: 1;
+				background-size: cover;
+			}
+
+			.xprofile-pic-container {
+				position: absolute;
+				padding-bottom: %;
+	}
 
 		}
